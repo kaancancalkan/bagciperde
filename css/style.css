@@ -702,14 +702,19 @@ form textarea:focus {
     background: #302c42;
     text-align: center;
     color: #eee;
-    padding: 35px 0 35px;
-    border-top: 1px solid #888;
+    padding: 15px 0 15px;
+    font-size: 16px;
+    /* border-top: 1px solid #888; */
 }
 
 /* footer */
 footer {
     background: #302c42;
-    padding: 90px 0 80px;
+    padding: 10px 0 10px;
+
+}
+.footer-bottom a{
+ color:white!important;
 }
 
 footer .brand {
@@ -1121,4 +1126,82 @@ background: white;
 .hakkımızdafoto img{
     width:70%;
     margin-bottom: 15px;
+}
+.contactyazı{
+    color:black;
+    font-weight: bold;
+    font-size:25px;
+    
+}
+.contactyazı p{
+    opacity:1!important;
+}
+#portfolio{
+    margin-bottom:-100px;
+}
+.eapps-link{
+    display:none!important;
+}
+#mapDiv > div > div > div:nth-child(4) > div > div{
+    display:none!important;
+}
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+}
+.map-responsive i{
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;
+}
+@media only screen and (max-width: 1005px) {
+    #contact{display: none;}
+}
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 30px; /* Add space around background */
+}
+.phoneicon{
+    width: 40px; /* Set width of icon */
+    height: 40px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+}
+li a{
+    color:black;
+}
+.navbar{
+display: flex;
+width: 100%;
+display: none;
+}
+.navbar ul{
+    flex:1;
+}
+navbar ul li{
+    display: inline-block;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+}
+navbar ul li i{
+    width:20vw;
 }
